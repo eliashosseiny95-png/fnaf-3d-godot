@@ -12,6 +12,7 @@ config_version=5
 
 config/name="FNAF 3D"
 config/version="1.0.0"
+run/main_scene="res://main.tscn"
 config/description="A 3D recreation of Five Nights at Freddy's in Godot Engine"
 
 [physics]
