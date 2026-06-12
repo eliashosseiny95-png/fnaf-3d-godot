@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8kmwfp123456"]
+
+[ext_resource type="Script" path="res://scripts/game_controller.gd"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("path", "res://scripts/game_controller.gd")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+position = Vector3(0, 10, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(0, 2, -5)
+current = true
