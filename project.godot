@@ -1,0 +1,24 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   some_property=value ; assign values to properties
+
+config_version=5
+
+[application]
+
+config/name="FNAF 3D"
+config/version="1.0.0"
+config/description="A 3D recreation of Five Nights at Freddy's in Godot Engine"
+
+[physics]
+
+3d/default_gravity=9.8
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+textures/vram_compression/import_etc2_astc=true
